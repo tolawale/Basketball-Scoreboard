@@ -1,0 +1,95 @@
+@font-face{
+ src: url('DS-DIGI.TTF');
+ font-family:'clock';
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 33px auto;
+    background-color: #1B244A;
+    color: white;
+    width: 575px;
+    height: 385px;
+    display: flex;
+    flex-direction: row;
+    text-align: center; 
+    align-items: center; 
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+h1{
+   color: #EEE;
+   text-align: center;
+   font-family: Verdana;
+   font-size: 40px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 35.893px; /* 89.732% */
+   margin-bottom: 10px;
+}
+
+.guest , .home{
+    margin: 0px 60px;   
+}
+
+#home--btn, #guest--btn{
+    width: 155px;
+    height: 120px;
+    margin: 10px;
+    background-color: black;
+    color: #F94F6D;
+    text-align: center;
+    font-family: clock; 
+    font-size: 90px; 
+    border-radius: 10px;
+    border-style: none;
+}
+#btn--one, #btn--two, #btn--three {
+    width: 45px;
+    height: 45px;
+    flex-shrink: 0;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 2px solid #9AABD8;
+    color: #9AABD8; 
+    margin: 15px 3px;
+    font-family: clock;
+    font-size: 18px;
+}
+
+.save-card{
+    margin: -10px auto;
+    background-color: #1B244A;
+    color: white;
+    width: 575px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    text-align: center; 
+    align-items: center; 
+    //padding-top: 10px;
+    //padding-bottom: 10px;
+    padding: 15px 0px 15px 0px;
+    border-radius: 10px;
+    font-family: Verdana;
+    font-size: 18px;
+}
+
+#save--btn{
+    width: 80px;
+    height: 45px;
+    flex-shrink: 0;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 2px solid #9AABD8;
+    color: whitesmoke; 
+    font-family: Verdana;
+    font-weight: bolder;
+    font-size: 18px;
+}
